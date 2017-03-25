@@ -148,7 +148,7 @@ IRDisp:
                 AND MaskIR  ;mask bottom 4 bits of 8-bit address
 	OUT    SSEG1
 	IN     IR_LO       ; get the low word
-                AND MaskIR  ;mask bottom 4 bits of 8-bit command
+                AND MaskIR  ;mask bottom 4 bits of 8-bit command change 1
 	OUT    SSEG2
 ;	OUT    IR_HI       ; this would reset the value to 0
 	RETURN
